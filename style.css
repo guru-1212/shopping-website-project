@@ -1,0 +1,465 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+.nav {
+    text-align: justify; 
+}
+.left {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.right{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.middle{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.middle span a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    margin-left: 15px;
+    padding: 15px;
+}
+.right span{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+.right span i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.middle span a:hover{
+color: red;
+transition: 0ms;
+transition-delay: 0s;
+
+}
+.right span i:hover{
+    color: red;
+    transition: 0ms;
+    transition-delay: 0s; 
+}
+.bottome-box{
+    font-size: large;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    justify-items: center;
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+}
+  
+.bottome-box i{
+    color: red;
+}
+
+.bottome-box h3{
+    padding:12px;
+}
+.img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+   flex-wrap: wrap;                 
+    
+}
+.girl{
+background-image: url(images/fashion-girl.jpg) ;
+width: 350px;
+height: 500px;
+background-size: cover;
+margin-top: 25px;
+box-shadow: 8px 8px 18px grey;
+}
+.girl:hover{
+    background-image: url(images/fashion-girl2.jpg);
+    transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    width: 357px;
+    transition-timing-function: linear;
+}
+.boy:hover{
+    background-image: url(images/fashion-boy3.jpg);
+    transition-duration: 0.2s;
+    transform-origin: 1px; 
+
+}
+.kid:hover{
+    background-image: url(images/fashion-kid3.jpg);
+    transition-duration: 0.2s;
+    transition-duration: 2s;
+  transition-timing-function: ;
+
+}
+.boy{
+    background-image:  url(images/fashion-boy.jpg);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    margin-top: 25px;
+    box-shadow: 8px 8px 18px grey;
+}
+.kid{
+    background-image: url(images/fashion-kid.jpg);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    margin-top: 25px;
+    box-shadow: 8px 8px 18px grey;
+}
+i:hover{
+    color: red;
+}
+.img .girl p{
+    font-size: 80px;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px grey;
+    text-align: center;
+    padding-top: 180px;
+}
+.img .boy p{
+    font-size: 80px;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px grey;
+    text-align: center;
+    padding-top: 180px;
+}
+.img .kid p{
+    font-size: 80px;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px grey;
+    text-align: center;
+    padding-top: 350px;
+}
+.footer{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 40px;  
+    background-color:#ffffff
+}
+.footer i{
+    color: red;
+}
+.main{
+    margin: 25px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+   text-align: center;
+   background:white;
+   border-radius: 25px;
+
+   
+}
+.main2{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.main3{
+    font-size: 20px;
+}
+.foot{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    background:white;
+    margin-top: 33px;
+}
+.foot1{
+   width: 450px;
+    background-image: url(images/main1.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-right: 15px;
+    box-shadow: 8px 8px 18px grey;
+   margin-left: 15px;
+}
+.foot2{
+  width: 577px;
+    background-image: url(images/main2.jpg);
+    background-size: cover;
+    height: 500px;
+    box-shadow: 8px 8px 18px grey;
+}
+.foot{
+    font-size: 40px;
+    font-weight:bold;
+}
+.foot2:hover{
+    background-image: url(images/fashion-boy3.jpg);
+}
+.foot1:hover{
+    background-image: url(images/fashion-girl2.jpg); 
+}
+section{
+    width: 100%;
+    text-align: center;
+    justify-content: center; 
+    /* box-shadow: 8px 8px 18px grey;  */
+}
+section div p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+section div span{
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px grey;
+}
+section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 34px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  
+}
+#a1{
+    padding: 10px;
+    margin-top: 25px;
+
+}
+.a1{
+    width: 350px;
+    height: 445px;  
+    /* border: 0.5px solid black; */
+    margin: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+.a1 p{
+    font-size: 20px;
+    font-size: cursive;
+    color: black;
+    margin-left: 10px;
+    margin-right: 2px
+
+;
+    margin-top: 25px;
+
+}
+.a2 p{
+    font-size: 20px;
+    font-size: cursive;
+    color: black;
+    margin-left: 10px;
+    margin-right: 2px
+
+;
+    margin-top: 25px;
+
+}
+.a3 p{
+    font-size: 20px;
+    font-size: cursive;
+    color: black;
+    margin-left: 10px;
+    margin-right: 2px
+
+;
+    margin-top: 25px;
+
+}
+.a11{
+    display: flex;
+    padding: 10px;
+}
+.a11 div span{
+    margin-left: 24px;
+    margin-top: 0px;
+   
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.a111{
+    margin-left: 33px;
+    margin-top: 4px;
+    letter-spacing: -1px;
+    color: goldenrod;
+
+}
+.a11 div p {
+    margin-left: 23px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+
+}
+
+.a2{
+     width: 350px;
+    height: 445px;   
+    /* border: 0.5px solid black; */
+    margin: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+.a3{ 
+     width: 350px;
+    height:445px; 
+    /* border: 0.5px solid black; */
+    margin: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+.ftr1{
+    text-align: center;   
+}
+.ftr0{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 800px;
+}
+.ftr2 img{
+    width: 150px;
+    height:150px
+}
+footer000{
+    background-color: grey;
+}
+.ftr2{
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   flex-wrap: wrap;
+}
+.logos img{
+    width: 170px;
+    height: 80px;
+    margin-left: 20px;
+  cursor: progress;
+  box-shadow: 3px 3px 15px grey;
+  
+}
+.logos{
+    padding-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.foot1212{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section{
+    text-align: center;
+    justify-content: center; 
+    background-color: grey;  
+}
+
+.section .foot1212 input{
+font-size: 24px;
+padding: 20px;
+background-color: grey;
+color: white;
+box-shadow: 3px 3px 5px rgb(4, 4, 4);
+cursor: pointer;
+border: none;
+border-radius: 20px;
+
+}
+.section h1{
+    padding: 45px;
+    margin-top: 57px;
+    font-size: 46px;
+}
+
+.section .foot1212 button{
+    font-size: 24px;
+    padding: 20px;
+    /* color: white; */
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.foot1212 button:hover{
+    background-color: black;
+    color: white;
+}
+.foot1212 input:hover{
+    background-color: black;
+    color: white;
+}
+
+.one p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.one1 li{
+    list-style: none;
+    
+}
+.footersection{
+    display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+.one1 p{
+    margin-bottom: 10px;
+}
+.one1{
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+.one{
+    margin-top: 40px;
+    margin-left: 18px;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+.one1  p,li:hover{
+    color: rgb(245, 241, 241);
+    cursor: pointer;
+}
+.a0000{
+    background-color: grey;
+   
+}
+::placeholder{
+    color:rgb(245, 239, 239);
+}
+
+
+
+
